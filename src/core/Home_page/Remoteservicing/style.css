@@ -1,0 +1,85 @@
+.menu-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 40px repeat(4 ,1fr); */
+    /* position: absolute; */
+}
+.menu-btn button{
+    width: 100%;
+    padding:5px;
+    position: relative;
+}
+
+.service_info{
+    background-color:rgba(0, 0, 0, 0.404) ;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 30px 1fr 30px;
+    width: 450px;
+}
+.col-1 ,.col-2{
+    /* border: solid black; */
+}
+.arrow{
+    height: 15px;
+    background-size: auto 100%;
+    background-repeat:no-repeat ;
+ background-image:url(../../Home_page/Input_location/Backbtn2.png) ;
+}
+.userInfo{
+    height: 100px;
+    margin: 4% 0;
+    /* border: solid rgb(208, 255, 0) 1px; */
+}
+.submit_btn{
+   
+    flex-direction: column;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.submit_btn button{
+    width: 100%;
+   padding:10px ;
+   border-radius: 5px;
+   background-color:rgb(255, 81, 0);
+   color: white;
+   border: solid rgb(255, 81, 0) 2px;
+   font-size: 14px;
+}
+.submit_btn button:active{
+    background-color:rgba(255, 81, 0, 0.733);
+}
+.info{
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: rgb(233, 233, 233);
+    /* background-color:white ; */
+    border: solid rgba(255, 255, 255, 0.301) 1px;
+    border-radius: 8px;
+    padding: 5px;
+    overflow: scroll;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    height: 80px;
+   width: 100%;
+}
+.selection{
+    height: 50px;
+    width: 100%;
+}
+.info::-webkit-scrollbar{
+    width: 0px;
+}
+@media(max-width:450px){
+    .service_info{
+        width: 100%;
+        background-color:transparent ;
+    }
+    .VIheading{
+        font-size:6vw ;
+    }
+}

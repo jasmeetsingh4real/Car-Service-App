@@ -1,0 +1,126 @@
+
+.VIheading{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin-top:3% ;
+    color:white;
+    font-size: 3.5vw;
+}
+.Vehicle_info_bg{
+    position: absolute;
+    height: 100vh;
+    width:100%;    
+    background-position: center;
+    background-size: 30% auto;
+    background-repeat: no-repeat;
+    background-image: url(../Vehicle.jpg);
+    background-color: #FCC05E;
+   
+}
+.loc_bg{
+    width: 100%;
+    background-image: url(../loc.jpeg);
+    background-color: #34364F;
+}
+
+.Vehicle_info{
+    /* border: solid rgba(0, 0, 0, 0.274) 1px; */
+    padding:40px 50px ;
+    text-align: left;
+    width:450px;
+    margin-left:auto ;
+    margin-right:auto ;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+    font-weight: 600;
+    /* background-image: linear-gradient(to right,#403b4aa8,  #e7e9bbb7); */
+    background-color:rgba(0, 0, 0, 0.281) ;
+    font-size: 18px;
+    background-size: auto 100%;
+    /* box-shadow: rgba(0, 0, 0, 0.623) 2px 2px 10px; */
+}
+
+.back{
+    
+    /* position: absolute; */
+    height: 15px;
+    width: 15px;
+    background-image: url(./Backbtn2.png);
+    margin-left: -40px;
+    margin-top: -20px;
+    background-size: 100% 100%;
+}
+.back:hover{
+    transform: scale(.9)
+}
+
+.VI_input{
+    font-size: 18px;
+    margin-bottom: 15px;
+    background:rgba(0, 0, 0, 0.445);
+    border: solid rgb(255, 255, 255) 1px;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    outline: none;
+    padding-left: 5px;
+}
+.VI_input::placeholder{
+    color: rgb(223, 223, 223);
+}
+
+
+.VI_input:focus{
+    box-shadow:rgba(231, 54, 0, 0.597) 0px 0px 0px 2px;
+}
+.VI_textarea{
+    font-size: 18px;
+    background:rgba(0, 0, 0, 0.445);
+     border: solid rgb(216, 216, 216) 1px;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    outline: none;
+    padding-left: 5px;
+}
+.VI_textarea::placeholder{
+    color: rgba(255, 255, 255, 0.692);
+}
+.VI_submit{
+    height: 40px;
+    width: 100%;
+    border:solid rgb(255, 81, 0) 2px;
+    border-radius: 5px;
+    background:rgb(255, 81, 0) ;
+    color: white;
+    transition: .3s;
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.VI_submit:hover{
+    background-color:rgba(255, 81, 0, 0.658)
+}
+
+.RSbtn{
+    margin-top: 50%;
+}
+@media(max-width:463px){
+    .Vehicle_info{
+        width: 100%;
+        padding:40px 20px;
+        background-color:transparent ;
+    }
+    .Vehicle_info_bg{
+        background-image: none;
+    }
+    .back{
+       margin:20px 0;
+    }
+}

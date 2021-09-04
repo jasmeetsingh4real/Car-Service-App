@@ -1,0 +1,122 @@
+*{margin: 0; padding: 0;font-family: 'Josefin Sans', sans-serif;}
+body{
+    background-image: linear-gradient(to right,#003973,#E5E5BE);
+    width: 100vw;
+}
+
+.row1{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap:15%;
+    margin: 8% 12%;
+    margin-bottom: 12%;
+}
+
+.card{
+    background-size:100% auto;
+    background-repeat: no-repeat;
+    height: 100%; 
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.76);
+    padding: 20% 10%;
+}
+.vehicle{
+    background-image:url(./Vehicle.jpg);    
+    background-color: #FCC05E;
+}
+.loc{
+    background-image:url(./loc.jpeg);
+    background-color: #34364F;
+}
+.cardbtn{
+    padding: 5%;
+    text-decoration: none;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.199);
+    color: white;
+    font-size: 2vw;
+    border:solid white 3px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.cardbtn:hover{
+    background:white;
+    color:black ;
+    cursor: pointer;
+}
+
+.row2{
+    background-color:white ;
+    padding:5% 20vw; ;
+    padding-top:1% ;
+}
+.services_h1{
+    padding: 5% 0;
+}
+.serviceItem{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 230px 2fr;
+    margin-bottom:50px ;
+}
+.service_img{
+    height: 180px;
+    border-radius: 10px;
+    padding:12% 10%;
+    background-size: 100% auto;
+    box-shadow: rgba(0, 0, 0, 0.39) 2px 2px 6px;
+}
+.service_img1{
+    background-image:url(./Input_location/abstract-city-map-with-color-pins-flat-design-vector-11274253.jpg) ;
+}
+.service_img2{
+    background-image: url(./servicecenter.jpeg);
+}
+.service_img3{
+    background-image: url(./onlinebooking.jpg);
+}
+
+.service_discription{
+    padding: 10px;
+    padding-top: 10px;
+    /* border:rgba(0, 0, 0, 0.281) solid 1px */
+}
+.service_btn{
+width: 100%;
+padding:5% 5% ;
+background:white ;
+color: black;
+border:white solid;
+border-radius: 10px;
+font-size:16px;
+box-shadow: rgba(0, 0, 0, 0.459) 2px 2px 6px;
+transition: .3s;
+}
+.service_btn:hover{
+ background-color:rgba(255, 255, 255, 0.336) ;
+ color: black;
+cursor: pointer;
+}
+@media (max-width:680px){
+    .row1{
+        margin:8% 5%;
+        grid-gap: 5%;
+    }
+    .card{
+        padding:0;
+        background-image:none ;
+        background-color: transparent;
+    }
+    .cardbtn{
+        font-size: 4vw;
+        /* background-color:transparent ; */
+    }
+    .row2{
+        padding: 5% 10%;
+    }
+    .serviceItem{
+        display: block;
+    }
+  
+}

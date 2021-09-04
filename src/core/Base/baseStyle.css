@@ -1,0 +1,56 @@
+*{margin: 0; padding: 0; box-sizing: border-box; text-decoration: none;}
+
+.heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    background-image:linear-gradient(to right,#003973,#E5E5BE);
+    /* background-size: 100% 120%; */
+    color: #fff;
+    height:120px;
+    padding-left:100px ;
+    padding-top: 75px;
+    text-shadow: 2px 2px 10px #000;
+}
+.leadheading{
+    font-style: italic;
+}
+.heading h2{
+    font-weight: 450;
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+
+.basefooter{
+   text-align: center;
+   background-image:linear-gradient(to right,#000000,#434343) ;
+   padding: 8%;
+   color: white;
+}
+.footertext{
+       
+        font-weight: 600; 
+        font-size: medium;
+        margin-bottom: 10px;
+}
+.socials{
+display: grid;
+grid-gap: 5%;
+grid-template-columns: 1fr repeat(6 ,25px) 1fr;
+}
+.sm1{
+    /* background-image: url(./insta.png); */
+    grid-column: 2/3;
+}
+
+.sm{
+    color: white;
+    font-size:20px ;
+}
+@media(max-width:380px){
+    .heading{
+        text-align: center;
+        padding: 0 ;
+        padding-top: 75px;
+    }
+}

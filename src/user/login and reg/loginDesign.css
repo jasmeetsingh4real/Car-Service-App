@@ -1,0 +1,126 @@
+    *{margin: 0;padding: 0;}
+   .page_background{
+    background-image: linear-gradient(to right,#16222A,#859398,#16222A);
+   padding:6% 0;
+   height: 100vh;
+   width: auto;
+   }
+   /* #283048 #859398
+   #1F1C2C  #928DAB
+   #16222A  #3A6073
+   #403B4A   #E7E9BB */
+
+   /* for contact
+   #003973  #E5E5BE
+   
+   TC
+   #BBD2C5  #536976*/
+   .logincard{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       grid-gap: 0px;
+       margin: auto 21%;
+   }
+
+
+   .loginform{
+    display: flex;
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.377);
+    height: 500px;
+    width: 100%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+.loginfields{
+   margin:0px auto ;
+   text-align: center;
+   padding-top: 10%;
+}
+
+    .carpic {
+        height: 500px;
+        width: 100%;   
+        overflow: hidden;
+        background-image: url(car.jpg);
+        background-position:10%;
+        background-size:cover;
+        background-color:#16222A ;
+    }
+
+  
+    .loginform input{
+        text-decoration: none;
+        border: none;
+        height: 30px;
+        margin: 5px 0px;
+        width: 100%;
+        padding: 3px;
+        outline: none;
+
+}
+    .loginform button{
+        width: 100%;
+        height: 30px;
+        background-color: tomato;
+        border: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        font-size: 15px;
+        font-weight: bolder;
+        margin: 5px 0px;
+    }
+    .loginform button:hover{
+        background-color: rgb(255, 123, 100);
+        cursor: pointer;
+    }
+    .loginform h2{
+        font-weight: 300;
+    }
+    .loginform h3{
+        font-weight: 500;
+   
+    }
+   
+  .linktag{
+        text-decoration: none;
+        color: white;
+    }
+    .linktag:hover{
+        color: tomato;
+    }
+    .backbtn{
+      
+        height: 15px;
+        width: 15px;
+        background-image: url(./Backbtn2.png);
+        background-size: 100% 100%;
+    }
+    .backbtn:hover{
+        transform: scale(.9);
+    }
+
+    @media(max-width:850px){
+        .carpic{
+            display: none;
+        }
+        .logincard{
+            display: block;
+            margin: 5%;
+            background-image: url(car.jpg);
+            background-position:10%;
+            background-size:cover;
+        }
+    }
+
+    @media(max-width:480px){
+        .logincard{
+            background-image:none ;
+        }
+        .loginform{
+            /* background-color:transparent ; */
+            padding: 0;
+        }
+    }

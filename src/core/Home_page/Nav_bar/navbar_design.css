@@ -1,0 +1,75 @@
+
+.Navbar{
+    position:fixed;
+    background-color: rgba(0, 0, 0, 0.685);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 60px;
+    padding-top: 20px;
+    width: 100%;
+    top: 0;
+}
+a.activelink{
+    border: solid white 1px;
+    color:rgb(238, 70, 20);
+}
+.inactive{
+    margin-right: 10px;
+    color:rgb(255, 255, 255);
+    padding:10px 5px;
+    border-radius: 5px;
+}
+
+.logout{
+    margin-top:3px ;
+    float: right;
+    color: #fff;
+}
+.logout:hover{
+    color:rgb(238, 70, 20);
+    cursor: pointer;
+}
+.dp{
+    float: right;
+    margin-right: 10px;
+}
+
+.menu{
+    display: none;
+}
+.desktop_nav{
+    float: left;
+}
+.small_menu{display: none}
+
+@media(max-width:900px){
+    .menu{
+        display: contents;
+        color: white;
+        cursor: pointer;
+    }
+    .menu span{
+        margin-left:10px;
+    }
+    .desktop_nav{
+        display: none;
+    }
+    .small_menu{
+        display: contents;
+    }
+    .small_menu ul{
+        background-color:rgba(0, 0, 0, 0.685);;
+        color: white;
+        margin:0px;
+        margin-top: 19px;
+        padding: 10px;        
+    }
+    .small_menu li{
+        color: white;
+        margin: 10px 0px;
+        cursor: pointer;
+    }
+    .small_menu li:active{
+        color: rgb(238, 70, 20);;
+    }
+    
+}

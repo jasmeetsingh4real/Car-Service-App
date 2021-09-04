@@ -1,0 +1,64 @@
+.About_us{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    color: white;
+    background-image: linear-gradient(to right,#53bea9,#093637);
+    padding:50px;
+    padding-bottom: 150px;
+}
+
+.AboutUsInfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10%;
+}
+.devinfo{
+    display: grid;
+    grid-template-columns: 150px 1fr ;
+    grid-gap: 10px;
+    color: white;
+}
+.devname{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.devname h3{
+    color: rgb(0, 0, 0);
+}
+.dev{
+    background-size: 100% auto;
+    height: 150px;
+    border-radius: 75px;
+    box-shadow: rgba(0, 0, 0, 0.548) 2px 2px 6px;
+}
+.dev1{
+    background-image:url(./Jagjeet.jpg) ;
+}
+.dev2{
+    background-image:url(./Jasmeet.jpg) ;
+}
+
+
+@media (max-width:680px){
+    .AboutUsInfo{
+        display: block;
+        font-size: 2.5vw;
+    }
+    .About_us{
+        display: block;
+    }
+    .About_us h1{
+        margin: 20px 0;
+    }
+    .questions{
+        margin-bottom: 30px;
+    }
+    .dev{
+        height: 100px;
+    }
+    .devinfo{
+        grid-template-columns: 100px 1fr ;
+        font-size: 2vw;
+    }
+}
