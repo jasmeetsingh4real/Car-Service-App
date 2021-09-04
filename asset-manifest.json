@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Car-Service-App/static/css/main.6b354f18.chunk.css",
+    "main.js": "/Car-Service-App/static/js/main.7c12ef5e.chunk.js",
+    "main.js.map": "/Car-Service-App/static/js/main.7c12ef5e.chunk.js.map",
+    "runtime-main.js": "/Car-Service-App/static/js/runtime-main.b858eff8.js",
+    "runtime-main.js.map": "/Car-Service-App/static/js/runtime-main.b858eff8.js.map",
+    "static/js/2.1c322487.chunk.js": "/Car-Service-App/static/js/2.1c322487.chunk.js",
+    "static/js/2.1c322487.chunk.js.map": "/Car-Service-App/static/js/2.1c322487.chunk.js.map",
+    "index.html": "/Car-Service-App/index.html",
+    "static/css/main.6b354f18.chunk.css.map": "/Car-Service-App/static/css/main.6b354f18.chunk.css.map",
+    "static/js/2.1c322487.chunk.js.LICENSE.txt": "/Car-Service-App/static/js/2.1c322487.chunk.js.LICENSE.txt",
+    "static/media/Backbtn.8943bcd8.png": "/Car-Service-App/static/media/Backbtn.8943bcd8.png",
+    "static/media/style.css": "/Car-Service-App/static/media/bgcar.0a784e20.jpg",
+    "static/media/home.css": "/Car-Service-App/static/media/servicecenter.c3ffdc78.jpeg",
+    "static/media/loginDesign.css": "/Car-Service-App/static/media/car.9be56582.jpg",
+    "static/media/email_pic.f2e217b2.png": "/Car-Service-App/static/media/email_pic.f2e217b2.png",
+    "static/media/logout.cbd5deaf.jpg": "/Car-Service-App/static/media/logout.cbd5deaf.jpg",
+    "static/media/whatsapp.4fb33b24.png": "/Car-Service-App/static/media/whatsapp.4fb33b24.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b858eff8.js",
+    "static/js/2.1c322487.chunk.js",
+    "static/css/main.6b354f18.chunk.css",
+    "static/js/main.7c12ef5e.chunk.js"
+  ]
+}
